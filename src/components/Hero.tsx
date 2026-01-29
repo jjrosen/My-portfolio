@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import profilePhoto from "../assets/Smiling man in a navy suit.png"
 
 export default function Hero() {
   return (
@@ -51,7 +52,7 @@ export default function Hero() {
           >
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl bg-gray-200">
               <img
-                src="src/assets/Smiling man in a navy suit.png"
+                src={profilePhoto}
                 alt="Josh Rosen profile photo"
                 className="w-full h-full object-cover"
               />
